@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yusuf Çağdaş | Links</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body class="min-h-screen flex items-center justify-center p-4">
+    <!-- Background Image -->
+    <img src="picture/gif2.gif" alt="circuit-2-GIF" class="background-image" id="backgroundImage">
+    
+    <!-- Language Toggle -->
+<div class="lang-toggle fixed top-4 right-16 z-100 bg-white/80 dark:bg-gray-800/80 rounded-full p-2 cursor-pointer flex items-center" id="langToggle">
+    <i class="fas fa-globe-americas text-gray-600 dark:text-gray-300"></i>
+    <div class="lang-dropdown hidden absolute top-full right-0 mt-2 w-32 bg-white dark:bg-gray-800 rounded-md shadow-lg z-50" id="langDropdown">
+        <div class="p-2 hover:bg-gray-100 dark:hover:bg-gray-700 cursor-pointer" data-lang="en">GB English</div>
+        <div class="p-2 hover:bg-gray-100 dark:hover:bg-gray-700 cursor-pointer" data-lang="tr">TR Türkçe</div>
+    </div>
+</div>
+    
+    <!-- Dark Mode Toggle -->
+    <div class="dark-mode-toggle fixed top-4 right-4 z-100 bg-white/80 dark:bg-gray-800/80 rounded-full p-2 cursor-pointer" id="darkModeToggle">
+        <i class="fas fa-moon" id="darkModeIcon"></i>
+    </div>
+    
+    <!-- Music Player -->
+    <audio id="backgroundMusic" loop>
+        <source src="audio/audio.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+    </audio>
+    
+    <!-- Music Control -->
+    <div class="music-control fixed bottom-4 left-4 z-100 bg-white/80 dark:bg-gray-800/80 rounded-full p-2 flex items-center gap-2" id="musicControl">
+        <i class="fas fa-music text-gray-600 dark:text-blue-400"></i>
+        <button id="playPauseBtn" class="text-gray-600 dark:text-blue-400"><i class="fas fa-play"></i></button>
+    </div>
+    
+    <div class="w-full max-w-md">
+        <div class="content-container">
+            <!-- Profile Section -->
+            <div class="text-center mb-8">
+                <img src="https://i.ibb.co/b5Y1cH6f/profile.jpg" alt="profile"
+                     class="w-48 h-48 md:w-56 md:h-56 rounded-full mx-auto mb-6 object-cover profile-img">
+                <h1 class="text-3xl font-bold text-white dark:text-white" data-en="Yusuf Çağdaş" data-tr="Yusuf Çağdaş">Yusuf Çağdaş</h1>
+                <p class="text-gray-200 text-lg dark:text-gray-400" data-en="I am a Mechatronics Student interested in Electronics, Software, Modeling and Robotics" data-tr="Mekatronik öğrencisiyim, Elektronik, Yazılım, Modelleme ve Robotik ile ilgileniyorum">I am a Mechatronics Student interested in Electronics, Software, Modeling and Robotics</p>
+            </div>
+
+            <!-- Links Section -->
+            <div class="space-y-4 mb-8">
+                <!-- Instagram -->
+                <a href="https://instagram.com/devcagdas" target="_blank" class="block">
+                    <div class="link-card p-4 flex items-center shadow-sm">
+                        <div class="w-10 h-10 rounded-lg bg-gradient-to-br from-pink-500 to-purple-600 flex items-center justify-center mr-4">
+                            <i class="fab fa-instagram text-white text-lg"></i>
+                        </div>
+                        <div>
+                            <h3 class="font-medium text-gray-800 dark:text-white" data-en="Instagram" data-tr="Instagram">Instagram</h3>
+                            <p class="text-sm text-gray-500 dark:text-gray-400" data-en="@devcagdas" data-tr="@devcagdas">@devcagdas</p>
+                        </div>
+                        <div class="ml-auto">
+                            <i class="fas fa-chevron-right text-gray-400"></i>
+                        </div>
+                    </div>
+                </a>
+
+                <a href="mailto:ycagdasc@outlook.com.tr" target="_blank" class="block">
+                    <div class="link-card p-4 flex items-center shadow-sm">
+                        <div class="w-10 h-10 rounded-lg bg-gradient-to-br from-blue-500 to-blue-600 flex items-center justify-center mr-4">
+                            <i class="fas fa-envelope text-white text-lg"></i>
+                        </div>
+                        <div>
+                            <h3 class="font-medium text-gray-800 dark:text-white" data-en="E-mail" data-tr="E-posta">E-mail</h3>
+                            <p class="text-sm text-gray-500 dark:text-gray-400" data-en="ycagdasc@outlook.com.tr" data-tr="ycagdasc@outlook.com.tr">ycagdasc@outlook.com.tr</p>
+                        </div>
+                        <div class="ml-auto">
+                            <i class="fas fa-chevron-right text-gray-400"></i>
+                        </div>
+                    </div>
+                </a>                
+
+                <!-- GitHub -->
+                <a href="https://github.com/ycagdass" target="_blank" class="block">
+                    <div class="link-card p-4 flex items-center shadow-sm">
+                        <div class="w-10 h-10 rounded-lg bg-gray-800 flex items-center justify-center mr-4">
+                            <i class="fab fa-github text-white text-lg"></i>
+                        </div>
+                        <div>
+                            <h3 class="font-medium text-gray-800 dark:text-white" data-en="GitHub" data-tr="GitHub">GitHub</h3>
+                            <p class="text-sm text-gray-500 dark:text-gray-400" data-en="@ycagdass" data-tr="@ycagdass">@ycagdass</p>
+                        </div>
+                        <div class="ml-auto">
+                            <i class="fas fa-chevron-right text-gray-400"></i>
+                        </div>
+                    </div>
+                </a>
+
+                <!-- Telegram -->
+                <a href="https://t.me/devcagdas" target="_blank" class="block">
+                    <div class="link-card p-4 flex items-center shadow-sm">
+                        <div class="w-10 h-10 rounded-lg bg-blue-500 flex items-center justify-center mr-4">
+                            <i class="fab fa-telegram text-white text-lg"></i>
+                        </div>
+                        <div>
+                            <h3 class="font-medium text-gray-800 dark:text-white" data-en="Telegram" data-tr="Telegram">Telegram</h3>
+                            <p class="text-sm text-gray-500 dark:text-gray-400" data-en="@devcagdas" data-tr="@devcagdas">@devcagdas</p>
+                        </div>
+                        <div class="ml-auto">
+                            <i class="fas fa-chevron-right text-gray-400"></i>
+                        </div>
+                    </div>
+                </a>
+            </div>
+
+            <!-- Tiny Social Icons -->
+            <div class="tiny-social-icons">
+                <a href="https://instagram.com/devcagdas" target="_blank" class="tiny-icon instagram-icon">
+                    <i class="fab fa-instagram"></i>
+                </a>
+                <a href="mailto:ycagdasc@outlook.com.tr" target="_blank" class="tiny-icon" style="background: #3b82f6; color: white;">
+                    <i class="fas fa-envelope"></i>
+                </a>
+                <a href="https://github.com/ycagdass" target="_blank" class="tiny-icon github-icon">
+                    <i class="fab fa-github"></i>
+                </a>
+                <a href="https://t.me/devcagdas" target="_blank" class="tiny-icon telegram-icon">
+                    <i class="fab fa-telegram"></i>
+                </a>
+            </div>
+        </div>
+    </div>
+
+  
+</div>
+</body>
+</html>

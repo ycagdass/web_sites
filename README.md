@@ -29,4 +29,5 @@ Adjust styles in style.css as needed.
 
 Contact
 For any questions, reach me at ycagdasc@outlook.com.tr.
-Made with ♥ by Yusuf Çağdaş
+
+Made with ❤️ by Yusuf Çağdaş
